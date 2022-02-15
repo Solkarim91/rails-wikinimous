@@ -11,6 +11,10 @@
   </head>
 
   <body>
+    <div class="header">
+    <h3><%= link_to 'Wikinimous', articles_path %></h3>
+    <button><a href="./articles/new">New Article</a></button>
+    </div>
     <%= yield %>
   </body>
 </html>
